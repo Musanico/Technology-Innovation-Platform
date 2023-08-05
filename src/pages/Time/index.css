@@ -1,0 +1,57 @@
+.time-bar{
+    z-index: 999;
+}
+
+.time-bgc{
+    margin-top: 150rem;
+    width: 2044rem;
+    height: 600rem;
+    background-image: url('./img/bgc.png');
+    position: relative;
+    background-size: cover;
+}
+
+.time-point{
+    width: 90rem;
+    height: 86rem;
+    position: absolute;
+    top: 333rem;
+    left: 210rem;
+}
+
+.time-num{
+    width: 20rem;
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+    color: #FFF;
+    font-family: Arimo Hebrew Subset Italic;
+    font-size: 36rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.time-mes{
+    width: 241rem;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    height: 151rem;
+    flex-shrink: 0;
+    fill: #D9D9D9;
+    stroke-width: 3rem;
+    stroke: #16798F;
+}
+
+.time-title {
+    width: 210rem;
+    position: absolute;
+    top: 40rem;
+    left: 16rem;
+    color: #000;
+    font-size: 18rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30rem;
+}

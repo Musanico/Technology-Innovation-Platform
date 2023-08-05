@@ -1,0 +1,110 @@
+.pm3-bar{
+    z-index: 999;
+}
+
+.pm3-left{
+    width: 320rem;
+    height: 750rem;
+    margin-left: 200rem;
+    margin-top: -200rem;
+    box-shadow: 4rem 4rem 30rem lightgrey,-4rem 4rem 30rem lightgrey,4rem -4rem 30rem lightgrey,-4rem -4rem 30rem lightgrey;
+}
+
+.pm3-side{
+    width:200rem;
+    height:60rem;
+    margin-left: 30rem;
+    margin-bottom: 100rem;
+    margin-top: -80rem;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    z-index: 9999;
+    border-radius: 200rem;
+    color: #000;
+    font-size: 23rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36rem; /* 136.364% */
+}
+
+.pm3-message p{
+    width: 140rem;
+    font-weight: bold;
+    font-size: 18rem;
+    float: left;
+}
+
+.pm3-message{
+    width: 280rem;
+    margin-left: 30rem;
+}
+
+.pm3-right{
+    width: 1300px;
+    height: 1250px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0 0 61px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 600px;
+    margin-top: -480px;
+}
+
+.pm3-right-title{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: #000;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px; /* 100% */
+}
+
+.pm3-right-main-card{
+    width: 441px;
+    height: 245px;
+    margin-left: 70px;
+    flex-shrink: 0;
+    background: url('./img/img.png');
+    background-size: 441px 245px;
+    box-shadow: 0 0 61px 0 rgba(0, 0, 0, 0.25);
+}
+
+.pm3-right-main-card3{
+    width: 441px;
+    height: 97px;
+    margin-left: 70px;
+    padding-top: 10px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0 0 61px 0 rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align:center;
+}
+
+.pm3-right-subtitle{
+    width: 240px;
+    height: 74px;
+    margin-top: 5px;
+}
+
+.pm3-right-subtitle p{
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}

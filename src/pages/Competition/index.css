@@ -1,0 +1,14 @@
+.comp-bar{
+    z-index: 999;
+}
+
+.comp-search{
+    width: 900rem;
+    margin: -250rem auto 200rem;
+}
+
+.comp-card{
+    padding-top: 55rem;
+    padding-left: 130rem;
+    float: left;
+}

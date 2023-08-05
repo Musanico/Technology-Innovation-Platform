@@ -1,0 +1,81 @@
+.pm-bar{
+    z-index: 999;
+}
+
+.pm-left{
+    width: 320rem;
+    height: 750rem;
+    margin-left: 200rem;
+    margin-top: -200rem;
+    box-shadow: 4rem 4rem 30rem lightgrey,-4rem 4rem 30rem lightgrey,4rem -4rem 30rem lightgrey,-4rem -4rem 30rem lightgrey;
+}
+
+.pm-side{
+    width:200rem;
+    height:60rem;
+    margin-left: 30rem;
+    margin-bottom: 100rem;
+    margin-top: -80rem;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    z-index: 9999;
+    border-radius: 200rem;
+    color: #000;
+    font-size: 23rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36rem; /* 136.364% */
+}
+
+.pm-message p{
+    width: 140rem;
+    font-weight: bold;
+    font-size: 18rem;
+    float: left;
+}
+
+.pm-message{
+    width: 280rem;
+    margin-left: 30rem;
+}
+
+.pm-right-part{
+    width: 1200rem;
+    height: 300rem;
+    margin-bottom: 50rem;
+    box-shadow: 4rem 4rem 30rem lightgrey,-4rem 4rem 30rem lightgrey,4rem -4rem 30rem lightgrey,-4rem -4rem 30rem lightgrey;
+}
+
+.pm-right{
+    width: 1200rem;
+    margin-left: 450rem;
+    margin-top: -200rem;
+}
+
+.pm-right-part-mine1{
+    width: 200rem;
+    height: 100rem;
+    font-size: 25rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.pm-right-part-mine2{
+    float: left;
+    width: 350rem;
+    height: 145rem;
+    margin-left: 50rem;
+    font-weight: 400;
+    border-right: #32A0D7 2rem solid;
+}
+
+.pm-right-part-mine2 p{
+    font-size: 18rem;
+}
